@@ -1,0 +1,19 @@
+public class SplitNum2
+{
+	public static void main (String[] args)
+	{
+		int rows = Integer.parseInt(args[0]);
+		int coles = Integer.parseInt(args[1]);
+		int minimum = 0;
+		int maximum = 9;
+		int max =0;
+		int [] [] a = new int [rows] [coles];
+		for ( int i = 0; i < rows; i++)
+		{
+			for ( int j = 0; j < coles; j++)
+			{
+				a[i][j] = (int) (Math.random()*10);
+				System.out.print(a[i][j] + " ");	
+			}
+		System.out.println();
+		}
